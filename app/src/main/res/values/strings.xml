@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OpenWeather</string>
+    <string name="action_update">Update</string>
+    <string name="activity_main_current_temperature">Current temperature: %s°C</string>
+    <string name="activity_main_current_wind">Wind: %s m/s, %s</string>
+    <string name="activity_main_current_place">Current place: %s, %s (%s,%s)</string>
+    <string name="activity_main_btn_update">Update weather</string>
+    <string name="activity_main_turn_location_on">Turn on location</string>
+    <string name="activity_main_google_service_not_available">Google service not available. Code: %s</string>
+</resources>

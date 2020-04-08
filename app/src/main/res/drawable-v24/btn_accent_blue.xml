@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle" >
+            <corners android:radius="50dp" />
+            <stroke
+                android:width="0dip"
+                android:color="@color/grey_medium" />
+            <gradient
+                android:startColor="@color/grey_medium"
+                android:endColor="@color/grey_medium" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:state_focused="true" >
+
+        <shape android:shape="rectangle" >
+            <corners android:radius="50dp" />
+            <stroke
+                android:width="0dip"
+                android:color="@color/secondary_pressed" />
+            <gradient
+                android:startColor="@color/secondary_pressed"
+                android:endColor="@color/secondary_pressed" />
+        </shape>
+
+    </item>
+    <item android:state_pressed="true" android:state_focused="false">
+
+        <shape android:shape="rectangle" >
+            <corners android:radius="50dp" />
+            <stroke
+                android:width="0dip"
+                android:color="@color/secondary_hover" />
+            <gradient
+                android:startColor="@color/secondary_hover"
+                android:endColor="@color/secondary_hover" />
+        </shape>
+
+    </item>
+    <item >
+        <shape android:shape="rectangle" >
+            <corners android:radius="50dp" />
+            <stroke
+                android:width="0dip"
+                android:color="@color/secondary" />
+            <gradient
+                android:startColor="@color/secondary"
+                android:endColor="@color/secondary" />
+        </shape>
+    </item>
+</selector>

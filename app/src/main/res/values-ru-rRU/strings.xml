@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenWeather</string>
+    <string name="action_update">Обновить</string>
+    <string name="activity_main_current_temperature">Текущая температура: %s°C</string>
+    <string name="activity_main_current_wind">Ветер: %s м/с, %s</string>
+    <string name="activity_main_current_place">Текущее местоположение: %s, %s (%s,%s)</string>
+    <string name="activity_main_btn_update">Обновить</string>
+    <string name="activity_main_turn_location_on">Включите местоположение</string>
+    <string name="activity_main_google_service_not_available">Google service не доступна. Код: %s</string>
+</resources>
